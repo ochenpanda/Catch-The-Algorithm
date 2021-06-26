@@ -67,6 +67,6 @@ function addObject() {
 
 // setInterval(addObject, 1000);
 
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 40; i++) {
   addObject();
 }
