@@ -7,143 +7,43 @@
   
   }
 
-  p {
-    font-family: SuisseIntl-Book;
-  }
-  
-  body {
-    height: 400vh;
-    margin: 0;
-    padding: 5vw;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .algo {
-    width: 252px;
-    height: 409px;
-  }
-  
-  .game {
-    background-color: #1A1A1A;
-    flex: 1;
-    position: relative;
-    padding: 30px;
-    cursor: url(player.png), pointer;
-  }
-  
-  .score {
-    margin-top: 0px;
-    margin-left: 0px;
-    position: fixed
-  }
+  body {height: 400vh;margin: 0;padding: 5vw;display: flex;flex-direction: column;}
+  p {font-family: SuisseIntl-Book;}
 
-  .time {
-    margin-left: 0px;
-    position: fixed;
-    margin-top: 40px;
-  }
+  #headline {font-family: SuisseIntl-Book;text-align:center;}
 
-  .headline {
-    padding-left: 40%;
-    left: 50%;
-    right: 50%;
-    font-family: SuisseIntl-Book;
-  }
+  /* .game * {border:1px solid red;} */
 
-  /* .symbols {
-    position: relative;
-    user-select: none;
-    z-index: 40;
-    height: 800px;
-  } */
-  
-  .flower3-box {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
+  .game {background-color: #1A1A1A;flex: 1;position: relative;padding: 30px;cursor: url(player.png), pointer;}
+  .score {margin-top:0;margin-left:0;position:fixed}
+  .time {margin-left:0;margin-top:40px;position:fixed;}
 
-  .flower3-box:hover .flower3-text {
-    opacity: 1;
-  }
+  .algo {width: 252px;height: 409px;}
 
-  .flower3-text {
-    padding: 20px;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateX(-100%);
-    background: white;
-    color:  #1A1A1A;
-    border-radius: 30px;
-    z-index: 1000;
-    font-family: SuisseIntl-Book;
+  .text {width:16em;z-index:999;}
 
-  }
+  .flower1-box {position: absolute;top: 40em;left:20em;}
+  .flower1-box:hover .flower1-text {opacity: 1;}
+  .flower1-text {padding: 20px;opacity:0;position: absolute;top: 0;left:26.5em;transform: translateX(-100%);background: white;color:  #1A1A1A;border-radius: 30px;z-index: 1000;font-family: SuisseIntl-Book;}
 
-  .game-image {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-  }
+  .flower2-box {position:absolute;top: 200em;left: 60em;}
+  .flower2-box:hover .flower2-text {opacity: 1;}
+  .flower2-text {padding: 20px;opacity:0;position: absolute;top: 0;left:28em;transform: translateX(-100%);background: white;color:  #1A1A1A;border-radius: 30px;z-index: 1000;font-family: SuisseIntl-Book;}
 
-  .flower1-box {
-    position: absolute;
-    top: ;
-    right: ;
-  }
+  .flower3-box {position: absolute;top: 150em;left:20em;}
+  .flower3-box:hover .flower3-text {opacity: 1;}
+  .flower3-text {padding: 20px;opacity:0;position: absolute;top: 0;left: 0;transform: translateX(-100%);background: white;color:  #1A1A1A;border-radius: 30px;z-index: 1000;font-family: SuisseIntl-Book;}
 
-  .flower1-box:hover .flower1-text {
-    opacity: 1;
-  }
+  .flower4 {width: 300px;height: 300px;}
+  .flower4-box {position: absolute;top: 20em;right:15em;}
+  .flower4-box:hover .flower4-text {opacity: 1;}
+  .flower4-text {padding: 20px;opacity:0;position: absolute;top: 0;right: 0;transform: translateX(-100%);background: white;color:  #1A1A1A;border-radius: 30px;z-index: 1000;font-family: SuisseIntl-Book;}
 
-  .flower1-text {
-    padding: 20px;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translateX(-100%);
-    background: white;
-    color:  #1A1A1A;
-    border-radius: 30px;
-    z-index: 1000;
-    font-family: SuisseIntl-Book;
-  }
+  /* .demon {} */
+  .demon-box {position: absolute;top: 100em;right:40%;}
+  .demon-box:hover .demon-text {opacity: 1;}
+  .demon-text {padding: 20px;opacity: 0;position: absolute;top: 0;left:90%;transform: translateX(-100%);background: white;color:  #1A1A1A;border-radius: 30px;z-index: 1000;font-family: SuisseIntl-Book;}
 
-  .flower4 {
-    width: 300px;
-    height: 300px;
-  }
 
-  .flower4-box {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-
-  .flower4-box:hover .flower4-text {
-    opacity: 1;
-  }
-
-  .flower4-text {
-    padding: 20px;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translateX(-100%);
-    background: white;
-    color:  #1A1A1A;
-    border-radius: 30px;
-    z-index: 1000;
-    font-family: SuisseIntl-Book;
-  }
-
-  .flower4 {
-    width: 300px;
-    height: 300px;
-  }
+  .game-image {width: 100px;height: 100px;position: absolute;}
   
